@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rajath Sathyanarayana | Quant Portfolio</title>
+    <meta
+      name="description"
+      content="Quantitative research and engineering portfolio focused on systematic trading, risk, market microstructure, and data-driven investing."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Rajath quant portfolio home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>Rajath Sathyanarayana</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#profile">Profile</a>
+        <a href="#experience">Experience</a>
+        <a href="#research">Research</a>
+        <a href="#skills">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Quantitative research portfolio</p>
+          <h1>Quant research, live trading systems, and data-driven market analysis.</h1>
+          <p class="lede">
+            I am an MS Quantitative and Computational Finance student at Georgia Tech with
+            experience building forecasting models, backtesting engines, fundamentals research,
+            and production software for large-scale data platforms.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="button primary" href="#work">View projects</a>
+            <a class="button secondary" href="mailto:rajaths@gatech.edu">Email me</a>
+          </div>
+        </div>
+
+        <div class="market-panel" aria-label="Research dashboard preview">
+          <div class="panel-top">
+            <div>
+              <span class="panel-label">Strategy Snapshot</span>
+              <strong>Live trading and backtesting engine</strong>
+            </div>
+            <span class="status-dot">Live research</span>
+          </div>
+          <canvas id="market-canvas" width="720" height="420" aria-label="Animated quantitative chart"></canvas>
+          <div class="metric-row">
+            <div>
+              <span>CAGR</span>
+              <strong>25.4%</strong>
+            </div>
+            <div>
+              <span>Sharpe</span>
+              <strong>1.14</strong>
+            </div>
+            <div>
+              <span>Directional accuracy</span>
+              <strong>75%+</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" aria-label="Portfolio summary">
+        <div class="summary-grid">
+          <div>
+            <span class="summary-value">GT QCF</span>
+            <span class="summary-label">MS Quant Finance, 2026</span>
+          </div>
+          <div>
+            <span class="summary-value">$16B+</span>
+            <span class="summary-label">Ad platform analytics experience</span>
+          </div>
+          <div>
+            <span class="summary-value">25.4%</span>
+            <span class="summary-label">Backtested CAGR project result</span>
+          </div>
+          <div>
+            <span class="summary-value">1K+</span>
+            <span class="summary-label">LinkedIn network reach</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section profile-section" id="profile">
+        <div class="profile-layout">
+          <div class="portrait-tile" aria-label="Rajath Sathyanarayana profile visual">
+            <div class="portrait-initials">RS</div>
+            <div class="portrait-caption">
+              <strong>Rajath Sathyanarayana</strong>
+              <span>Atlanta, Georgia</span>
+            </div>
+          </div>
+          <div class="profile-copy">
+            <p class="eyebrow">LinkedIn profile</p>
+            <h2>Quant finance student building where markets, software, and data meet.</h2>
+            <p>
+              My public profile centers on quantitative finance, data-driven investing, backtesting,
+              alpha research, and quant development. Recent work includes a fundamentals-based
+              equity screen, a modular live trading/backtesting engine, and coursework spanning
+              derivatives, fixed income, stochastic processes, time series, and valuation.
+            </p>
+            <div class="profile-highlights">
+              <div>
+                <span>Fundamentals signal</span>
+                <strong>10.4% alpha</strong>
+              </div>
+              <div>
+                <span>Downside-adjusted result</span>
+                <strong>1.63 Sortino</strong>
+              </div>
+              <div>
+                <span>Publications</span>
+                <strong>3 peer-reviewed</strong>
+              </div>
+            </div>
+            <a class="inline-link" href="https://www.linkedin.com/in/rajath-sathyanarayana-40479716a/" target="_blank" rel="noopener">Open LinkedIn profile</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects built around measurable edge.</h2>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Filter projects">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="research">Research</button>
+          <button class="filter-button" type="button" data-filter="trading">Trading</button>
+          <button class="filter-button" type="button" data-filter="systems">Systems</button>
+          <button class="filter-button" type="button" data-filter="valuation">Valuation</button>
+          <button class="filter-button" type="button" data-filter="risk">Risk</button>
+          <button class="filter-button" type="button" data-filter="engineering">Engineering</button>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Research training backed by production engineering.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span class="timeline-date">Jan 2026-May 2026</span>
+            <h3>Data Science Capstone Intern, Fiserv</h3>
+            <p>
+              Built OLS, ARMA, and heteroskedastic models using macro and small business index
+              features to forecast personal consumption expenditure rate of change, reaching
+              75%+ directional accuracy.
+            </p>
+          </article>
+          <article>
+            <span class="timeline-date">Nov 2022-Dec 2024</span>
+            <h3>Software Development Engineer, Amazon</h3>
+            <p>
+              Led performance reporting pipelines and analytics dashboards for advertisers on a
+              $16B+ revenue-generating platform, and shipped API and moderation workflow features
+              for large-scale ad operations.
+            </p>
+          </article>
+          <article>
+            <span class="timeline-date">Jan 2021-Nov 2022</span>
+            <h3>Software Engineer, Couchbase</h3>
+            <p>
+              Solved customer issues across distributed, highly available, low-latency database
+              systems and developed internal log parsing and monitoring tools for faster root-cause
+              analysis.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section research-section" id="research">
+        <div class="section-heading">
+          <p class="eyebrow">Research focus</p>
+          <h2>Questions I like to turn into evidence.</h2>
+        </div>
+        <div class="research-grid">
+          <article>
+            <span>01</span>
+            <h3>Factor robustness</h3>
+            <p>PCA-driven residual signals, Fama-French factor explanations, factor redundancy, and mean-variance portfolio construction.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Market microstructure</h3>
+            <p>Interactive Brokers integration, tick ingestion, bar aggregation, and customizable execution frequencies across asset classes.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Forecasting and econometrics</h3>
+            <p>OLS, ARMA, heteroskedastic modeling, macro features, and directional accuracy checks for economic forecasting.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Research infrastructure</h3>
+            <p>Production-grade analytics pipelines, dashboards, APIs, data contracts, and reproducible model evaluation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stack-section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Stack</p>
+          <h2>Tools I use to move from hypothesis to result.</h2>
+        </div>
+        <div class="stack-layout">
+          <div class="stack-column">
+            <h3>Research</h3>
+            <p>Python, pandas, NumPy, Matplotlib, Seaborn, PyTorch, TensorFlow, statistical learning, time series, and optimization.</p>
+          </div>
+          <div class="stack-column">
+            <h3>Markets</h3>
+            <p>Equities, derivatives, fixed income, factor models, mean-variance optimization, stochastic processes, and valuation.</p>
+          </div>
+          <div class="stack-column">
+            <h3>Engineering</h3>
+            <p>Java, C++, C, SQL, APIs, distributed systems, analytics dashboards, backend services, testing, and documentation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let us talk markets, models, or research engineering.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:rajaths@gatech.edu">Email</a>
+          <a href="https://github.com/rajath-s-2">GitHub</a>
+          <a href="https://www.linkedin.com/in/rajath-sathyanarayana-40479716a/">LinkedIn</a>
+          <a href="resume.pdf">Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Rajath Sathyanarayana</span>
+      <span>Quantitative research portfolio</span>
+    </footer>
+
+    <script src="script.js?v=profile-github-project-links"></script>
+  </body>
+</html>
