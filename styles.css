@@ -265,65 +265,7 @@ h3 {
 }
 
 .profile-layout {
-  align-items: center;
-  display: grid;
-  gap: clamp(28px, 5vw, 72px);
-  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
-}
-
-.portrait-tile {
-  aspect-ratio: 4 / 5;
-  background:
-    linear-gradient(135deg, rgba(15, 118, 110, 0.14), transparent 42%),
-    linear-gradient(180deg, #111827 0%, #16312f 100%);
-  border-radius: 8px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 360px;
-  overflow: hidden;
-  padding: 26px;
-  position: relative;
-}
-
-.portrait-tile::before {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
-  background-size: 32px 32px;
-  content: "";
-  inset: 0;
-  position: absolute;
-}
-
-.portrait-initials {
-  align-items: center;
-  align-self: center;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  display: flex;
-  font-size: clamp(4rem, 10vw, 7.5rem);
-  font-weight: 950;
-  height: 54%;
-  justify-content: center;
-  line-height: 1;
-  margin-top: 8%;
-  position: relative;
-  width: 70%;
-}
-
-.portrait-caption {
-  display: grid;
-  gap: 4px;
-  position: relative;
-}
-
-.portrait-caption strong {
-  font-size: 1.05rem;
-}
-
-.portrait-caption span {
-  color: rgba(255, 255, 255, 0.72);
+  max-width: 980px;
 }
 
 .profile-copy p:not(.eyebrow) {
@@ -574,14 +516,6 @@ footer {
 
   .summary-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .profile-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .portrait-tile {
-    max-width: 460px;
   }
 
   .contact-section,
