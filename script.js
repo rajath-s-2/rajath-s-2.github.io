@@ -20,6 +20,25 @@ const projects = [
     linkLabel: "View project",
   },
   {
+    title: "Salesforce Equity Research Analysis",
+    category: "valuation",
+    year: "Fall 2025",
+    description:
+      "Built an equity research valuation model for Salesforce using CFRA analyst context, CAPM cost of equity, dividend discount modeling, FCFF, WACC, and sensitivity analysis across discount rates and terminal growth assumptions.",
+    tags: ["Equity research", "CAPM", "FCFF"],
+    link: "https://github.com/rajath-s-2/salesforce-equity-research-analysis",
+    linkLabel: "View project",
+  },
+  {
+    title: "Currencies and International Stock Returns",
+    category: "international",
+    year: "Fall 2025",
+    description:
+      "Case study on international equity allocation from a U.S. investor perspective, focusing on local-currency versus dollar returns, currency contribution to performance, developed and emerging market volatility, and cross-market correlations.",
+    tags: ["FX risk", "global equities", "correlations"],
+    note: "Case summary available on request",
+  },
+  {
     title: "Multi-Asset Portfolio Optimization",
     category: "risk",
     year: "Fall 2025",
