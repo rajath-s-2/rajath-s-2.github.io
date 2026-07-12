@@ -40,7 +40,8 @@ const projects = [
   },
   {
     title: "Currencies and International Stock Returns",
-    category: "international",
+    category: "international finance",
+    filter: "international-finance",
     year: "Fall 2025",
     description:
       "Case study on international equity allocation from a U.S. investor perspective, focusing on local-currency versus dollar returns, currency contribution to performance, developed and emerging market volatility, and cross-market correlations.",
@@ -129,7 +130,9 @@ const filterButtons = document.querySelectorAll(".filter-button");
 
 function renderProjects(filter = "all") {
   const visibleProjects =
-    filter === "all" ? projects : projects.filter((project) => project.category === filter);
+    filter === "all"
+      ? projects
+      : projects.filter((project) => (project.filter || project.category) === filter);
 
   projectGrid.innerHTML = visibleProjects
     .map(
