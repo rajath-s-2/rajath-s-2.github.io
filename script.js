@@ -101,8 +101,8 @@ const projects = [
     category: "engineering",
     year: "2022-2024",
     description:
-      "Built performance reporting data pipelines, analytics dashboards, programmatic API access, and moderation tooling for advertisers on a $16B+ revenue-generating Amazon platform.",
-    tags: ["Data pipelines", "APIs", "$16B+ platform"],
+      "Built performance reporting data pipelines, analytics dashboards, programmatic API access, and moderation tooling for large-scale advertiser operations.",
+    tags: ["Data pipelines", "APIs", "Ad tech"],
     note: "Professional experience",
   },
   {
