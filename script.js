@@ -1,8 +1,8 @@
 const projects = [
   {
     title: "Agentic AI Portfolio Advisor",
-    category: "ai related",
-    filter: "ai-related",
+    category: "agentic ai",
+    filter: "agentic-ai",
     year: "Summer 2026",
     description:
       "Building a multi-agent investment decision-support platform with LangGraph-ready orchestration, document import, valuation workflows, and news / earnings-call parsing agents that produce citation-backed monthly recommendations.",
