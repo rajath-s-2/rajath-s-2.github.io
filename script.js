@@ -50,15 +50,6 @@ const projects = [
     linkLabel: "View project",
   },
   {
-    title: "Statistical Arbitrage and Factor Modeling",
-    category: "trading",
-    year: "Fall 2025",
-    description:
-      "Built a PCA-based market-neutral strategy, modeled idiosyncratic returns as a mean-reverting process, estimated factor redundancies through regression, and constructed a mean-variance efficient frontier.",
-    tags: ["PCA", "mean reversion", "efficient frontier"],
-    note: "Details available on request",
-  },
-  {
     title: "Fundamentals-Based Equity Screen",
     category: "trading",
     year: "Summer 2025",
