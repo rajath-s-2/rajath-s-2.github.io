@@ -66,6 +66,16 @@ const projects = [
     description:
       "Implemented an Avellaneda and Lee-style statistical arbitrage system for cryptocurrency markets using PCA factor portfolios, OU residual modeling, S-score trading rules, dynamic top-40 universe selection, tests, logs, and generated backtest outputs over 8,760 hourly periods.",
     tags: ["Python", "PCA", "OU process"],
+    link: "https://github.com/rajath-s-2/crypto-stat-arb-system",
+    linkLabel: "View project",
+  },
+  {
+    title: "Live Trading and Backtesting Engine",
+    category: "systems",
+    year: "Summer 2025",
+    description:
+      "Built a modular trading engine for strategy research, historical backtesting, and live-market execution workflows with reusable components for signal generation, portfolio logic, and order handling.",
+    tags: ["Backtesting", "Live trading", "Python"],
     link: "https://github.com/Rajath-S/MarketBot",
     linkLabel: "View project",
   },
