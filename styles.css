@@ -259,33 +259,6 @@ h3 {
   max-width: 820px;
 }
 
-.profile-highlights {
-  display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 28px 0 24px;
-}
-
-.profile-highlights div {
-  border-top: 1px solid var(--line);
-  padding-top: 16px;
-}
-
-.profile-highlights span {
-  color: var(--muted);
-  display: block;
-  font-size: 0.78rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.profile-highlights strong {
-  display: block;
-  font-size: clamp(1.3rem, 2.5vw, 2rem);
-  line-height: 1.1;
-  margin-top: 6px;
-}
-
 .inline-link {
   color: var(--teal);
   font-weight: 900;
@@ -542,8 +515,7 @@ footer {
   .project-grid,
   .research-grid,
   .stack-layout,
-  .summary-grid,
-  .profile-highlights {
+  .summary-grid {
     grid-template-columns: 1fr;
   }
 
