@@ -66,7 +66,7 @@ const projects = [
     description:
       "Implemented an Avellaneda and Lee-style statistical arbitrage system for cryptocurrency markets using PCA factor portfolios, OU residual modeling, S-score trading rules, dynamic top-40 universe selection, tests, logs, and generated backtest outputs over 8,760 hourly periods.",
     tags: ["Python", "PCA", "OU process"],
-    link: "https://github.com/rajath-s-2/crypto-stat-arb-system",
+    link: "https://github.com/Rajath-S/Final-Project",
     linkLabel: "View project",
   },
   {
