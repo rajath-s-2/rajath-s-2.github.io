@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: "Factor Model Replication and GRS Testing",
-    category: "research",
+    category: "modeling",
     year: "Fall 2025",
     description:
       "Replicated Fama-French five-factor tables and an AQR-style six-factor model with HML-DEV and momentum, then applied GRS tests to 25 size/book-to-market portfolios and 10 industry portfolios.",
@@ -51,7 +51,7 @@ const projects = [
   },
   {
     title: "Fundamentals-Based Equity Screen",
-    category: "trading",
+    category: "research",
     year: "Summer 2025",
     description:
       "Built a WRDS research notebook that screens Compustat quarterly fundamentals for sustained positive operating cash flow, valuation discipline, and YoY revenue/net-income growth, maps GVKEYs to CRSP PERMNOs, and backtests an equal-weighted portfolio against CRSP market returns.",
@@ -81,7 +81,7 @@ const projects = [
   },
   {
     title: "Personal Consumption Expenditure Forecasting",
-    category: "research",
+    category: "modeling",
     year: "Spring 2026",
     description:
       "Partnered with Fiserv to forecast PCE rate of change from macro and small business index features using OLS, ARMA, and heteroskedastic models, achieving 75%+ directional accuracy.",
@@ -90,7 +90,8 @@ const projects = [
   },
   {
     title: "Credit Card Fraud Detection",
-    category: "engineering",
+    category: "machine learning",
+    filter: "machine-learning",
     year: "Spring 2025",
     description:
       "Developed a machine learning pipeline for fraud detection with preprocessing, EDA, feature engineering, XGBoost, Logistic Regression, SVM, and a custom utility-based objective.",
