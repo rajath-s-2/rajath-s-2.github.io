@@ -180,8 +180,7 @@ h3 {
   overflow: hidden;
 }
 
-.panel-top,
-.metric-row {
+.panel-top {
   display: flex;
   gap: 18px;
   justify-content: space-between;
@@ -189,7 +188,6 @@ h3 {
 }
 
 .panel-label,
-.metric-row span,
 .summary-label {
   color: var(--muted);
   display: block;
@@ -215,19 +213,6 @@ h3 {
   display: block;
   height: auto;
   width: 100%;
-}
-
-.metric-row {
-  border-top: 1px solid var(--line);
-}
-
-.metric-row div {
-  min-width: 0;
-}
-
-.metric-row strong {
-  display: block;
-  font-size: clamp(1.2rem, 2vw, 1.7rem);
 }
 
 .section {
@@ -562,8 +547,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .panel-top,
-  .metric-row {
+  .panel-top {
     flex-direction: column;
   }
 

@@ -210,7 +210,7 @@ function drawMarketPanel() {
 
   context.fillStyle = "rgba(255, 255, 255, 0.72)";
   context.font = "700 16px Inter, system-ui, sans-serif";
-  context.fillText("Fundamentals screen backtest diagnostics", 28, 34);
+  context.fillText("Research signals and market structure", 28, 34);
 
   frame += 1;
   window.requestAnimationFrame(drawMarketPanel);
