@@ -85,7 +85,8 @@ const projects = [
     description:
       "Developed a machine learning pipeline for fraud detection with preprocessing, EDA, feature engineering, XGBoost, Logistic Regression, SVM, and a custom utility-based objective.",
     tags: ["XGBoost", "SVM", "utility objective"],
-    note: "Details available on request",
+    link: "https://github.com/rajath-s-2/credit-card-fraud-detection",
+    linkLabel: "View project",
   },
 ];
 
