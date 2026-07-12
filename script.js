@@ -96,24 +96,6 @@ const projects = [
     tags: ["XGBoost", "SVM", "utility objective"],
     note: "Details available on request",
   },
-  {
-    title: "Advertiser Analytics and Reporting Platform",
-    category: "engineering",
-    year: "2022-2024",
-    description:
-      "Built performance reporting data pipelines, analytics dashboards, programmatic API access, and moderation tooling for large-scale advertiser operations.",
-    tags: ["Data pipelines", "APIs", "Ad tech"],
-    note: "Professional experience",
-  },
-  {
-    title: "Distributed Database Monitoring Tools",
-    category: "engineering",
-    year: "2021-2022",
-    description:
-      "Developed internal log parsing and monitoring tools at Couchbase to accelerate root-cause analysis for distributed, highly available, low-latency database systems.",
-    tags: ["Distributed systems", "logs", "monitoring"],
-    note: "Professional experience",
-  },
 ];
 
 const projectGrid = document.querySelector("#project-grid");
