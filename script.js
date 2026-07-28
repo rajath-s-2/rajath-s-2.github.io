@@ -54,7 +54,7 @@ const projects = [
     category: "research",
     year: "Summer 2025",
     description:
-      "Built a WRDS research notebook that screens Compustat quarterly fundamentals for sustained positive operating cash flow, valuation discipline, and YoY revenue/net-income growth, maps GVKEYs to CRSP PERMNOs, and backtests an equal-weighted portfolio against CRSP market returns.",
+      "Built a WRDS research notebook that screens Compustat quarterly fundamentals for sustained positive operating cash flow, valuation discipline, and YoY revenue and net-income growth.",
     tags: ["WRDS", "Compustat", "Sharpe 1.14"],
     link: "https://github.com/rajath-s-2/fundamentals-equity-screen",
     linkLabel: "View project",
